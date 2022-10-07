@@ -1,0 +1,13 @@
+body{
+    background: antiquewhite;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    border: 1px solid lightgray;
+    width: 10%;
+    height: 35px;
+    text-align: center;
+}

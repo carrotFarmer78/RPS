@@ -1,0 +1,26 @@
+body{
+    background: antiquewhite;
+}
+.container{
+  display: inline-flex;
+
+}
+.box{
+    border: 1px solid lightgray;
+    width: 20%;
+    height: 35px;
+    text-align: center;
+    align-items: flex-start;
+
+
+}
+.boxPick{
+    width: 20%;
+}
+.push {
+    margin-left: auto;
+}
+.button{
+    alignment: center;
+}
+

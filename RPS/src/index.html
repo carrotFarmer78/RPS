@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Rock Paper Scissors</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-sm-10">
+            <h2>Welcome to rock paper scissors</h2>
+
+            <hr />
+
+            <div class="button">
+            <div type="button" onclick ='determinator("R"),document.getElementById("boxPick").innerHTML = "You picked: Rock"'class="btn btn-default t1">Rock</div>
+            <div type="button" onclick ='determinator("P"),document.getElementById("boxPick").innerHTML = "You picked: Paper"'class="btn btn-default t2">Paper</div>
+            <div type="button" onclick ='determinator("S"),document.getElementById("boxPick").innerHTML = "You picked: Scissors"'class="btn btn-default t3">Scissors</div>
+            </div>
+
+
+            <div class="container">
+                <div class="box" id="boxy">Score</div>
+                <div class="box push" id="boxPick">Your Pick</div>
+                <div class="box" id="aiPick">Ai Pick</div>
+                <div class="box" id="result">Result</div>
+            </div>
+           </div>
+
+    </div>
+</div>
+
+</body>
+</html>
